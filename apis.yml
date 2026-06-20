@@ -2,7 +2,7 @@ aid: ameresco
 url: https://raw.githubusercontent.com/api-evangelist/ameresco/refs/heads/main/apis.yml
 name: Ameresco
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Energy Efficiency
   - Clean Energy
@@ -19,7 +19,7 @@ apis:
       - Energy Efficiency
       - Clean Energy
       - Services
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.ameresco.com
     humanURL: https://developer.ameresco.com
     properties:
