@@ -32,7 +32,7 @@ common:
     url: https://www.linkedin.com/company/ameresco
   - type: Website
     url: https://www.ameresco.com
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://ameresco.com/llms.txt
 maintainers:
   - FN: Kin Lane
