@@ -28,6 +28,10 @@ apis:
     description: >-
       The Ameresco API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: DomainSecurity
+    url: security/ameresco-domain-security.yml
+  - url: https://www.ameresco.com/feed/
+    type: Blog
   - type: LinkedIn
     url: https://www.linkedin.com/company/ameresco
   - type: Website
