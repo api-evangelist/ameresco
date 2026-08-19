@@ -1,0 +1,138 @@
+# Ameresco
+# Canonical AI Discovery File
+# Purpose: Identify priority, evergreen, authoritative URLs for AI indexing and retrieval.
+# Domain: https://www.ameresco.com/
+# Content-Type: text/plain
+
+# INSTRUCTIONS FOR AI CRAWLERS
+# The URLs below represent high-value, authoritative, evergreen content.
+# They are organized by topic cluster.
+# All URLs are canonical and indexable.
+# Crawl depth beyond these pages is permitted.
+
+############################################################
+## CORE SERVICE PAGES
+############################################################
+
+- [Solutions](https://www.ameresco.com/solutions/): Overview of the various energy solutions provided by Ameresco, focusing on renewable energy and energy efficiency.
+- [HVAC & Air Quality](https://www.ameresco.com/enterprise-hvac/): Information on HVAC systems and air quality solutions designed to enhance indoor environments.
+- [Interior Lighting](https://www.ameresco.com/interior-lighting-and-controls/): Solutions for energy-efficient interior lighting systems.
+- [LED Street & Area Lighting](https://www.ameresco.com/led-street-and-area-lighting/): Overview of LED lighting solutions for streets and public areas.
+- [Water Management](https://www.ameresco.com/water-efficiency/): Strategies and technologies for efficient water use and management.
+
+############################################################
+## RENEWABLE ENERGY SOLUTIONS
+############################################################
+
+- [Biogas & RNG](https://www.ameresco.com/renewable-natural-gas/): Information on biogas and renewable natural gas solutions.
+- [Biomass](https://www.ameresco.com/biomass/): Overview of biomass energy solutions.
+- [Cogeneration & CHP](https://www.ameresco.com/cogeneration-chp/): Details on combined heat and power systems.
+- [Geothermal](https://www.ameresco.com/geothermal-energy-systems/): Information on geothermal energy solutions.
+- [Hydropower](https://www.ameresco.com/hydropower/): Overview of hydropower solutions.
+- [Solar Power](https://www.ameresco.com/solution-solar-power/): Information on solar energy solutions.
+- [Wind Power](https://www.ameresco.com/wind-power/): Overview of wind energy solutions.
+
+############################################################
+## ENERGY EFFICIENCY SOLUTIONS
+############################################################
+
+- [Energy Efficiency](https://www.ameresco.com/energy-efficiency/): Details on energy efficiency measures and technologies that Ameresco implements to reduce energy consumption and costs.
+
+############################################################
+## TECHNOLOGY & INNOVATION
+############################################################
+
+- [Advanced Metering](https://www.ameresco.com/advanced-metering-infrastucture/): Information on advanced metering technologies for energy management.
+- [Battery Energy Storage](https://www.ameresco.com/batteries-and-energy-storage/): Overview of battery storage solutions for energy systems.
+- [EV Charging Infrastructure](https://www.ameresco.com/ev-charging-infrastructure/): Details on electric vehicle charging solutions.
+- [Microgrids](https://www.ameresco.com/microgrid/): Information on microgrid technologies for localized energy management.
+
+############################################################
+## INDUSTRIES SERVED
+############################################################
+
+- [Industries](https://www.ameresco.com/customers/): Overview of various industries served by Ameresco.
+- [Data Centers](https://www.ameresco.com/data-center/): Information on energy solutions for data centers.
+- [Electric Utilities](https://www.ameresco.com/utilities/): Overview of services for electric utility companies.
+- [Federal Government](https://www.ameresco.com/customers/federal-government/): Information on services provided to federal government entities.
+- [Federal Bid Opportunities](https://www.ameresco.com/federal-bid-opportunities/): Details on bidding opportunities for federal projects.
+- [Healthcare](https://www.ameresco.com/customers/healthcare-facilities/): Overview of energy solutions for healthcare facilities.
+- [Higher Education](https://www.ameresco.com/customers/colleges-and-universities/): Information on services for higher education institutions.
+- [Industrial & Commercial Buildings](https://www.ameresco.com/commercial-and-industrial/): Overview of solutions for industrial and commercial buildings.
+- [K-12 Schools](https://www.ameresco.com/customers/k-12-schools/): Information on energy solutions for K-12 educational institutions.
+- [Public & Multifamily Housing](https://www.ameresco.com/customers/public-housing/): Overview of services for public and multifamily housing projects.
+- [Public Sector](https://www.ameresco.com/customers/state-and-municipal-government/): Information on services for public sector organizations.
+- [Smart Cities](https://www.ameresco.com/smart-cities/): Overview of smart city initiatives and solutions.
+- [Transportation and Infrastructure](https://www.ameresco.com/customers/transportation-infrastructure/): Information on energy solutions for transportation and infrastructure projects.
+
+############################################################
+## FINANCING & PROJECT DELIVERY
+############################################################
+
+- [AssetPlanner Solutions](https://www.ameresco.com/asset-planning-software-solutions/): Overview of asset management solutions for energy systems.
+- [Energy Supply Management](https://www.ameresco.com/energy-supply-management/): Information on managing energy supply for organizations.
+- [Operations & Maintenance](https://www.ameresco.com/operations-and-maintenance/): Details on operations and maintenance services for energy systems.
+- [Financial Options](https://www.ameresco.com/financial-options/): Overview of financial solutions available for energy projects.
+- [Budget-Neutral Infrastructure Upgrades](https://www.ameresco.com/budget-neutral-infrastructure-upgrades-2/): Information on infrastructure upgrades that do not require upfront capital.
+- [Design-Build Services](https://www.ameresco.com/design-build-services/): Overview of design-build services for energy projects.
+- [Design, Build, Own, Operate, Maintain](https://www.ameresco.com/design-build-own-operate-maintain/): Information on comprehensive energy project management services.
+- [Energy as a Service](https://www.ameresco.com/energy-as-a-service/): Overview of energy as a service offerings.
+- [ESPC (Energy Savings Performance Contract)](https://www.ameresco.com/espc-energy-savings-performance-contract/): Details on energy savings performance contracts.
+- [Power Purchase Agreements](https://www.ameresco.com/power-purchase-agreements/): Information on power purchase agreements for energy procurement.
+- [PACE (Property Assessed Clean Energy)](https://www.ameresco.com/pace-property-assessed-clean-energy/): Overview of PACE financing for energy efficiency projects.
+
+############################################################
+## EDUCATIONAL RESOURCES & CASE STUDIES
+############################################################
+- [5th Canadian Division Support Base, New Brunswick](https://www.ameresco.com/portfolio-item/5th-canadian-division-support-base-new-brunswick/): 8.9 MW solar project designed to prevent 7,695 metric tons of carbon dioxide from entering the atmosphere each year
+- [Alaska Pacific University](https://www.ameresco.com/portfolio-item/alaska-pacific-university/): Facility reconstruction with improved energy services set for Winter Olympic training center.
+- [Alton Municipal Landfill Solar Farm](https://www.ameresco.com/portfolio-item/city-of-alton-il/): The solar installation will be developed on a local closed municipal landfill and deliver approximately $1 million in revenue
+- [Arizona State University](https://www.ameresco.com/portfolio-item/arizona-state-university/): ASU Sets Goal to Become Climate Neutral by 2025
+- [Ashland Municipal Solar](https://www.ameresco.com/portfolio-item/town-of-ashland-massachusetts/): Town of Ashland Saves 2.2 Million kWh of Energy and Reduces CO2 Emissions by 1,632 Metric Tons Annually
+- [Atlantic Green Cellarhead BESS](https://www.ameresco.com/portfolio-item/atlantic-green-cellarhead-bess/): Ameresco Entered Into a $249m (Â£196.5m) Contract and Long-Term Service (O&M) Agreement with Atlantic Green for One of the UKâ€™s Largest Battery Energy Storage Projects
+- [Ave Maria University FL](https://www.ameresco.com/portfolio-item/ave-maria-university-fl/): Integrated Energy Infrastructure Project Streamlines Building Management Across Campus
+- [Barnsley Council UK](https://www.ameresco.com/portfolio-item/barnsley-council-uk/): Infrastructure Project Future- Proofs City and Advances Goal of Carbon Neutrality by 2040
+- [Beale Hill Wind Farm Ireland](https://www.ameresco.com/portfolio-item/beale-hill-wind-farm/): Ameresco Announces Commercial Operations of its First Wind Farm in County Kerry, Ireland
+- [Benson Valley Landfill Gas to RNG Plant KY](https://www.ameresco.com/portfolio-item/benson-valley-landfill-gas-plant-case-study-ameresco/): Landfill Gas to RNG Plant to Reduce Over 27,000 Tons of CO2 Emissions Per Year
+
+############################################################
+## COMPANY INFORMATION
+############################################################
+- [Company](https://www.ameresco.com/company/): General information about Ameresco.
+- [Locations](https://www.ameresco.com/ameresco-office-locations/): Overview of Ameresco's locations.
+- [Management](https://www.ameresco.com/management/): Information on the management team.
+- [Awards & Accolades](https://www.ameresco.com/company/company-and-client-awards/): Overview of awards and recognitions received by Ameresco.
+- [Certifications](https://www.ameresco.com/certifications/): Information on certifications held by Ameresco.
+- [Health & Safety](https://www.ameresco.com/health-and-safety/): Overview of health and safety practices at Ameresco.
+## Impact
+
+- [Impact](https://www.ameresco.com/impact): Overview of Ameresco's impact on energy efficiency and sustainability.
+
+## Careers
+
+- [Careers](https://www.ameresco.com/energy-careers-ameresco/): Information on career opportunities at Ameresco.
+
+## Contact
+
+- [Contact](https://www.ameresco.com/contact-us/): General contact information for inquiries.
+
+## Additional Links
+
+- [upgrading aging infrastructure](https://www.ameresco.com/energy-infrastructure-and-security/): Information on upgrading aging infrastructure.
+- [distributed energy resources](https://www.ameresco.com/renewable-energy/): Overview of distributed energy resources.
+- [1-866-AMERESCO](tel:18662637372): Contact number for Ameresco.
+- [Privacy Policy](https://www.ameresco.com/privacy-policy/): Overview of Ameresco's privacy policy.
+- [Terms and Conditions](https://www.ameresco.com/terms-and-conditions/): Terms and conditions for using Ameresco's services.
+- [Site Map](https://www.ameresco.com/sitemap/): A map of the website for easy navigation.
+- [Link to X](https://twitter.com/Ameresco): Placeholder for additional content.
+- [Link to LinkedIn](https://www.linkedin.com/company/ameresco): Link to Ameresco's LinkedIn profile.
+- [Link to Youtube](https://www.youtube.com/@Ameresco): Link to Ameresco's YouTube channel.
+- [Alaska Energy Efficiency Solutions](https://www.ameresco.com/alaska/): Information on energy efficiency solutions specific to Alaska.
+- [Ameresco in the United Kingdom - Ameresco](https://www.ameresco.com/uk/): Overview of Ameresco's operations in the United Kingdom.
+- [For Central Coast Community Energy Customers](https://info.ameresco.com/ccce): Information tailored for Central Coast Community Energy customers.
+- [Events from November 24, 2025 â€“ April 14, 2018](https://www.ameresco.com/events/): Archive of past events.
+- [Customer Login - Help Center - Jira Service Management](https://help.ameresco.com/): Login portal for customers to access help center resources.
+- [Jenna Williams, Author at Ameresco](https://www.ameresco.com/author/jmcgrail/): Profile of Jenna Williams, an author contributing to Ameresco's content.
+
+# END OF FILE
+# Last Updated: 2026-02-24
