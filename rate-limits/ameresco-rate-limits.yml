@@ -4,41 +4,41 @@ schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main
 provider: Ameresco
 providerId: ameresco
 created: '2026-05-04'
-# Provenance stamped 2026-08-11: this artifact was written by the API Evangelist
-# bulk sweep dated 2026-05-04, not harvested from the provider. See roadmap#35.
-method: generated
-modified: '2026-05-05'
-reconciled: false
+modified: '2026-09-02'
+generated: '2026-09-02'
+method: searched
+reconciled: true
 tags:
   - Energy Efficiency
   - Clean Energy
-  - Services
+  - Asset Management
   - Rate Limiting
 description: >-
-  Ameresco does not publish public API rate limits. Reconcile when public rate limit documentation becomes available.
-notes: >-
-  Ameresco is an energy services company (ESCO) delivering performance contracts, distributed generation, and asset management to public-sector and large commercial customers. It does not publish a public API developer portal with documented pricing or rate limits. Reconcile if Ameresco publishes a public API.
+  Ameresco documents no API rate limits, because it documents no API. There is no public
+  developer portal, API reference or machine-readable contract on any Ameresco-controlled
+  host, so there are no published quotas, windows, burst allowances, throttling response
+  codes or RateLimit response headers to record. limit_count is 0 and that is a
+  measurement, not a placeholder.
+limit_count: 0
+limits: []
+headers: []
+response_codes: {}
 sources:
-  - https://www.ameresco.com
-responseCodes:
-  throttled: 429
-  serviceUnavailable: 503
-limits:
-  - name: Undocumented - bilateral agreement
-    scope: contract
-    metric: varies
-    limit: 'see partner agreement; not publicly documented'
-policies:
-  - name: Documentation Status
-    description: >-
-      Ameresco does not publish public per-second or per-minute API rate
-      limits. Throughput, concurrency, and burst behavior are governed by the
-      relevant partner, supplier, or merchant agreement.
-  - name: Backoff Strategy
-    description: >-
-      Where any HTTP API is exposed, clients should implement exponential
-      backoff with jitter and honor any Retry-After header returned on 429
-      or 503 responses.
+  - url: https://www.ameresco.com/llms.txt
+    status: 200
+    note: Ameresco's own canonical page list; no developer, API or rate-limit page in it.
+  - url: https://developer.ameresco.com
+    status: NXDOMAIN
+    note: Host recorded by a prior round of this profile does not resolve in DNS.
+  - url: https://api.ameresco.com
+    status: NXDOMAIN
+    note: Host recorded by a prior round of this profile does not resolve in DNS.
+searched: '2026-09-02'
+note: >-
+  Supersedes the 2026-05-04 bulk-sweep scaffold, which asserted a limit row named
+  "Undocumented - bilateral agreement" and a throttled/503 response-code map that no
+  Ameresco document supports. Both were inferences, not observations, and have been
+  removed.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

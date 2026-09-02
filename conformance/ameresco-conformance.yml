@@ -1,0 +1,65 @@
+generated: '2026-09-02'
+method: searched
+source: https://www.ameresco.com/certifications/
+note: >-
+  Ameresco publishes no API contract, so no API-level standard (OAuth 2.0, OIDC,
+  RFC 9457, JSON:API, OData, SCIM, pagination or idempotency conventions) can be
+  asserted or refuted from a specification — every one of those is recorded as
+  unknown rather than false. What Ameresco does publish is a certifications page
+  naming audited management-system standards; those are recorded here with the
+  page that states them.
+standards:
+  - id: iso-27001
+    name: ISO/IEC 27001:2022 Information Security Management
+    conforms: true
+    evidence: >-
+      https://www.ameresco.com/certifications/ names ISO 27001:2022 certification
+      for the Ameresco AssetPlanner platform (fetched 2026-09-02, HTTP 200).
+  - id: iso-9001
+    name: ISO 9001:2015 Quality Management
+    conforms: true
+    evidence: https://www.ameresco.com/certifications/ (HTTP 200, 2026-09-02)
+  - id: iso-14001
+    name: ISO 14001:2015 Environmental Management
+    conforms: true
+    evidence: https://www.ameresco.com/certifications/ (HTTP 200, 2026-09-02)
+  - id: iso-45001
+    name: ISO 45001:2018 Occupational Health and Safety
+    conforms: true
+    evidence: https://www.ameresco.com/certifications/ (HTTP 200, 2026-09-02)
+  - id: iso-50001
+    name: ISO 50001:2018 Energy Management
+    conforms: true
+    evidence: https://www.ameresco.com/certifications/ (HTTP 200, 2026-09-02)
+  - id: rfc9116-security-txt
+    name: RFC 9116 security.txt
+    conforms: partial
+    evidence: >-
+      https://assetplanner.com/.well-known/security.txt (HTTP 200) carries Contact,
+      Canonical and Preferred-Languages but omits the mandatory Expires field.
+  - id: oauth2
+    conforms: unknown
+    evidence: no published API contract or OAuth documentation to read
+  - id: oidc
+    conforms: unknown
+    evidence: /.well-known/openid-configuration 404 on every Ameresco-controlled host
+  - id: rfc9457-problem-details
+    conforms: unknown
+    evidence: no published API contract to read error media types from
+domain_standards:
+  note: >-
+    The energy-services / building-analytics market does have machine-readable domain
+    standards an ESCO platform could speak — Green Button (ESPI), Haystack, BACnet/WS,
+    IEEE 2030.5, OpenADR, ASHRAE 224. None is declared in any Ameresco contract because
+    Ameresco publishes no contract, and no marketing claim is treated as evidence here.
+    This is recorded as not-evaluated, not as a failure.
+  evaluated: false
+  candidates_for_a_future_pass:
+    - green-button-espi
+    - project-haystack
+    - bacnet-ws
+    - ieee-2030-5
+    - openadr
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

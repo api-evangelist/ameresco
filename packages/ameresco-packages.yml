@@ -1,0 +1,49 @@
+generated: '2026-09-02'
+method: searched
+source: >-
+  Registry searches run 2026-09-02 against npm, PyPI, RubyGems and crates.io, plus the
+  Ameresco GitHub organization (https://github.com/Ameresco) and the AssetPlanner
+  product page.
+note: >-
+  Ameresco publishes no client libraries or SDKs in any public package registry, and no
+  CDN-distributed client build. Its single public GitHub repository is an internal
+  workflow-template repo, not a client library. Recorded as an honest zero.
+package_count: 0
+packages: []
+registries_searched:
+  - registry: npm
+    query: https://registry.npmjs.org/-/v1/search?text=ameresco
+    status: 200
+    results: 0
+  - registry: npm
+    query: https://registry.npmjs.org/-/v1/search?text=assetplanner
+    status: 200
+    results: 0
+  - registry: pypi
+    query: https://pypi.org/simple/ameresco/
+    status: 404
+    results: 0
+  - registry: rubygems
+    query: https://rubygems.org/api/v1/search.json?query=ameresco
+    status: 200
+    results: 0
+  - registry: crates.io
+    query: https://crates.io/api/v1/crates?q=ameresco
+    status: 200
+    results: 0
+source_repositories:
+  - url: https://github.com/Ameresco
+    status: 200
+    public_repos:
+      - name: github_workflows
+        official: true
+        description: null
+        updated: '2026-02-23'
+        note: >-
+          Reusable GitHub Actions workflow templates. Not a client library for any
+          Ameresco API; carries no published package in any registry.
+        version: null
+        published: null
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

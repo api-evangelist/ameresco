@@ -1,0 +1,77 @@
+generated: '2026-09-02'
+method: probed
+source: live GET of /.well-known/* on every host Ameresco is known to control
+note: >-
+  assetplanner.com is included because AssetPlanner is Ameresco's own enterprise
+  asset-management platform: the login page at https://assetplanner.com/logon carries
+  an "Ameresco 2026" footer and links back to
+  https://www.ameresco.com/asset-planning-software-solutions/, and the TLS certificate
+  is issued to *.assetplanner.com. It is the only Ameresco-controlled host that serves
+  a real /.well-known document. The former developer.ameresco.com and api.ameresco.com
+  hosts recorded in a prior round of this profile do not resolve (NXDOMAIN, dig
+  2026-09-02) and were therefore not probed.
+hosts:
+  - host: www.ameresco.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: assetplanner.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: well-known/ameresco-assetplanner-security.txt
+        content_type: text/plain
+        note: RFC 9116 security.txt, 244 bytes, Contact + Canonical + Preferred-Languages.
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+unresolved_hosts:
+  - host: developer.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: api.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: docs.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: status.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: trust.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: security.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+  - host: portal.ameresco.com
+    result: NXDOMAIN
+    checked: '2026-09-02'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

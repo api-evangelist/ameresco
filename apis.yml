@@ -29,38 +29,128 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ameresco.p
 tags:
   - Energy Efficiency
   - Clean Energy
+  - Energy Management
+  - Asset Management
+  - Facilities
+  - Sustainability
+  - Infrastructure
   - Services
 description: >-
-  Ameresco is a major US corporation and Fortune 1000 company. The Ameresco API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+  Ameresco, Inc. (NYSE: AMRC) is an energy infrastructure company that develops, builds,
+  owns and operates energy efficiency, renewable energy, distributed generation and asset
+  management projects for federal, state, municipal, education, healthcare and commercial
+  customers across North America and Europe. Its software product is AssetPlanner, an
+  enterprise asset management and capital planning platform delivered as a customer-tenant
+  web application. Ameresco publishes no developer portal, API reference or machine-readable
+  API contract on any host it controls; where integration is offered it is built bespoke per
+  engagement, and the customer help center is login-gated.
 created: '2026-04-19'
-modified: '2026-04-19'
+modified: '2026-09-02'
 specificationVersion: '0.23'
 apis:
   - aid: ameresco:ameresco-api
-    name: Ameresco API
+    name: Ameresco AssetPlanner Platform
     tags:
-      - Energy Efficiency
-      - Clean Energy
+      - Asset Management
+      - Facilities
+      - Energy Management
       - Services
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://api.ameresco.com
-    humanURL: https://developer.ameresco.com
-    properties:
-      - url: https://developer.ameresco.com/docs
-        type: Documentation
+    humanURL: https://www.ameresco.com/asset-planning-software-solutions/
     description: >-
-      The Ameresco API provides access to platform services and data for enterprise integration and automation.
+      AssetPlanner is Ameresco's enterprise asset management and capital planning platform,
+      served to customer tenants at https://assetplanner.com/logon and certified to ISO/IEC
+      27001:2022. Ameresco's own product page says it "can build custom APIs to allow for the
+      seamless transfer of data over time" — bespoke, per engagement. No public base URL, API
+      reference or machine-readable contract is published. The developer.ameresco.com and
+      api.ameresco.com hosts asserted by an earlier round of this profile do not resolve
+      (NXDOMAIN, dig 2026-09-02) and have been removed; baseURL is deliberately left absent
+      rather than guessed from the domain.
+    properties:
+      - type: Login
+        url: https://assetplanner.com/logon
+      - type: Support
+        url: https://help.ameresco.com/
 common:
-  - type: DomainSecurity
-    url: security/ameresco-domain-security.yml
-  - url: https://www.ameresco.com/feed/
-    type: Blog
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/ameresco
   - type: Website
     url: https://www.ameresco.com
-  - type: LlmsText
+  - type: Blog
+    url: https://www.ameresco.com/feed/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ameresco
+  - type: LLMsTxt
     url: https://ameresco.com/llms.txt
+  - type: GitHubOrganization
+    url: https://github.com/Ameresco
+  - type: Support
+    url: https://help.ameresco.com/
+  - type: PrivacyPolicy
+    url: https://www.ameresco.com/privacy-policy/
+  - type: TermsOfService
+    url: https://www.ameresco.com/terms-and-conditions/
+  - type: Compliance
+    url: https://www.ameresco.com/certifications/
+  - type: TrustCenter
+    url: security/ameresco-trust-center.yml
+  - type: Security
+    url: https://assetplanner.com/.well-known/security.txt
+  - type: SecurityTxt
+    url: well-known/ameresco-assetplanner-security.txt
+  - type: VulnerabilityDisclosure
+    url: security/ameresco-vulnerability-disclosure.yml
+  - type: WellKnown
+    url: well-known/ameresco-well-known.yml
+  - type: Conformance
+    url: conformance/ameresco-conformance.yml
+  - type: DomainSecurity
+    url: security/ameresco-domain-security.yml
+  - type: Packages
+    url: packages/ameresco-packages.yml
+  - type: FinOps
+    url: finops/ameresco-finops.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-02'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: >-
+    Ameresco markets AssetPlanner as an enterprise asset-management platform and says on its
+    own product page that it "can build custom APIs" per engagement, but every reference for it
+    sits behind a tenant login: assetplanner.com serves only a logon form, help.ameresco.com
+    301s to an Ameresco Help Center on Jira Service Management with anonymousEnabled=false, and
+    the developer.ameresco.com and api.ameresco.com hosts a prior round of this profile asserted
+    do not exist in DNS at all — the only machine-readable surface left on the corporate domain
+    is WordPress's own default /wp-json/ CMS index (284 routes, 18 plugin namespaces), not a
+    product API.
+  evidence:
+    - url: https://developer.ameresco.com
+      status: NXDOMAIN
+    - url: https://api.ameresco.com
+      status: NXDOMAIN
+    - url: https://help.ameresco.com/
+      status: 301
+    - url: https://ameresco.atlassian.net/servicedesk/customer/portals
+      status: 200
+    - url: https://assetplanner.com/docs/
+      status: 200
+    - url: https://assetplanner.com/swagger/v1/swagger.json
+      status: 404
+    - url: https://www.ameresco.com/openapi.json
+      status: 404
+    - url: https://www.ameresco.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.ameresco.com/.well-known/agent-card.json
+      status: 404
+    - url: https://www.ameresco.com/wp-json/
+      status: 200
+    - url: https://assetplanner.com/.well-known/security.txt
+      status: 200
+    - url: https://ameresco.com/llms.txt
+      status: 200
+  checked: '2026-09-02'

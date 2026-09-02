@@ -1,0 +1,8 @@
+# security.txt - Contact information for vulnerability reporting
+# Learn more: https://www.rfc-editor.org/rfc/rfc9116
+ 
+ 
+Contact: security@assetplanner.com
+Canonical: https://assetplanner.com/.well-known/security.txt
+Preferred-Languages: en
+ 

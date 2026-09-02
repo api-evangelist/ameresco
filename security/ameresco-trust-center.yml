@@ -1,0 +1,44 @@
+generated: '2026-09-02'
+method: searched
+probe: true
+url: https://www.ameresco.com/certifications/
+note: >-
+  Ameresco runs no dedicated trust center (trust.ameresco.com and security.ameresco.com
+  are NXDOMAIN, probed 2026-09-02). It does publish a certifications page listing named,
+  audited management-system certifications, including an ISO/IEC 27001:2022 information
+  security certification scoped to the AssetPlanner platform.
+certifications:
+  - name: ISO/IEC 27001:2022
+    domain: information security management
+    scope: Ameresco AssetPlanner platform
+  - name: ISO 9001:2015
+    domain: quality management
+  - name: ISO 14001:2015
+    domain: environmental management
+  - name: ISO 45001:2018
+    domain: occupational health and safety management
+  - name: ISO 50001:2018
+    domain: energy management
+  - name: UNI CEI 11352:2014
+    domain: energy service company certification (Italy)
+  - name: SOA
+    domain: qualification for public works execution (Italy)
+accreditations:
+  - NAESCO Accredited Energy Service Provider
+  - Supporting Ontario's Safe Employers (SOSE)
+  - IMQ ESCo certification (Italy)
+absent:
+  - SOC 2
+  - PCI DSS
+  - HIPAA
+  - FedRAMP
+  - CSA STAR
+evidence:
+  - source: https://www.ameresco.com/certifications/
+    status: 200
+    keywords: [iso 27001, iso 9001, iso 14001, iso 45001, iso 50001]
+  - source: https://trust.ameresco.com/
+    status: NXDOMAIN
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

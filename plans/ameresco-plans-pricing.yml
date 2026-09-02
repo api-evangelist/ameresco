@@ -4,42 +4,40 @@ schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main
 provider: Ameresco
 providerId: ameresco
 created: '2026-05-04'
-# Provenance stamped 2026-08-11: this artifact was written by the API Evangelist
-# bulk sweep dated 2026-05-04, not harvested from the provider. See roadmap#35.
-method: generated
-modified: '2026-05-05'
-reconciled: false
+modified: '2026-09-02'
+generated: '2026-09-02'
+method: searched
+reconciled: true
 tags:
   - Energy Efficiency
   - Clean Energy
+  - Asset Management
   - Services
 description: >-
-  Ameresco does not publish public API plans or pricing. Energy performance contracts, asset operations, and renewable project services are negotiated per-engagement. This artifact remains a scaffold pending publication of a public API commercial offering.
-notes: >-
-  Ameresco is an energy services company (ESCO) delivering performance contracts, distributed generation, and asset management to public-sector and large commercial customers. It does not publish a public API developer portal with documented pricing or rate limits. Reconcile if Ameresco publishes a public API.
+  Ameresco publishes no plans, tiers or list pricing for any API or for the AssetPlanner
+  platform. Energy performance contracts, distributed generation, asset operations and the
+  AssetPlanner subscription are all quoted per engagement through sales. plan_count is 0:
+  that is the finding, not a gap in this record.
+plan_count: 0
+plans: []
+pricing_model: contact-sales
 sources:
-  - https://www.ameresco.com
-plans:
-  - id: ameresco-overview
-    name: Ameresco - Pricing Overview
-    type: enterprise
-    description: >-
-      Placeholder plan reflecting that Ameresco does not publish a public,
-      machine-readable API price list. Pricing is bespoke per engagement.
-    entries:
-      - label: API Access
-        name: api_access
-        type: flat
-        metric: varies
-        limit: -1
-        timeFrame: usage
-        geo: global
-        unit: 1
-        price: contact sales
-        userMultiplied: false
-    elements:
-      - name: Negotiated Access
-      - name: Bilateral Agreement
+  - url: https://www.ameresco.com/asset-planning-software-solutions/
+    status: 200
+    note: AssetPlanner product page — describes the platform, names no price or tier.
+  - url: https://www.ameresco.com/contact-us/
+    status: 200
+    note: The only commercial entry point published; a contact form, not a price list.
+  - url: https://www.ameresco.com/llms.txt
+    status: 200
+    note: >-
+      Ameresco's own AI discovery file enumerates its canonical pages and lists no
+      pricing, plans or developer page among them.
+searched: '2026-09-02'
+note: >-
+  Supersedes the 2026-05-04 bulk-sweep scaffold, which carried a placeholder plan named
+  "Ameresco - Pricing Overview" with a synthetic entry priced "contact sales". That plan
+  did not exist; it has been removed rather than reworded.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
