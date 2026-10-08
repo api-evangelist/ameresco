@@ -72,6 +72,10 @@ apis:
       - type: Support
         url: https://help.ameresco.com/
 common:
+  - type: Plans
+    url: plans/ameresco-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/ameresco-rate-limits.yml
   - type: Website
     url: https://www.ameresco.com
   - type: Blog
