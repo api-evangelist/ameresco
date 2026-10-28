@@ -1,4 +1,4 @@
-# Ameresco (ameresco)
+# Ameresco
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,23 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ameresco is a major US corporation and Fortune 1000 company. The Ameresco API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+Ameresco, Inc. (NYSE: AMRC) is an energy infrastructure company that develops, builds, owns and operates energy efficiency, renewable energy, distributed generation and asset management projects for federal, state, municipal, education, healthcare and commercial customers across North America and Europe. Its software product is AssetPlanner, an enterprise asset management and capital planning platform delivered as a customer-tenant web application. Ameresco publishes no developer portal, API reference or machine-readable API contract on any host it controls; where integration is offered it is built bespoke per engagement, and the customer help center is login-gated.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ameresco/refs/heads/main/apis.yml)
+**Areas:** Energy Efficiency · Clean Energy · Energy Management · Asset Management · Facilities · Sustainability · Infrastructure · Services
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Ameresco on APIs.io
 
-## Tags:
+Everything profiled for Ameresco is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ameresco/](https://apis.io/providers/ameresco/)** — or go straight to one of the APIs or properties below.
 
- - Energy Efficiency, Clean Energy, Services
+### APIs (1)
 
-## Timestamps
+- [Ameresco AssetPlanner Platform](https://apis.io/apis/ameresco/ameresco-api/) — AssetPlanner is Ameresco's enterprise asset management and capital planning platform, served to customer tenants at https://assetplanner.com/logon and…
 
-- **Created:** 2026-04-19
-- **Modified:** 2026-04-19
+### Published properties
 
-## Maintainers
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**FN:** Kin Lane
+#### Security (3)
 
-**Email:** kin@apievangelist.com
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ameresco Domain Security](https://apis.io/security/ameresco/ameresco-domain-security/)
+- [Ameresco Trust Center](https://apis.io/security/ameresco/ameresco-trust-center/)
+- [Ameresco Vulnerability Disclosure](https://apis.io/security/ameresco/ameresco-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ameresco Plans Pricing](https://apis.io/plans/ameresco/ameresco-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ameresco Rate Limits](https://apis.io/rate-limits/ameresco/ameresco-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ameresco Finops](https://apis.io/finops/ameresco/ameresco-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ameresco.com)
+- [Support](https://help.ameresco.com/)
+- [Blog](https://www.ameresco.com/feed/)
+- [Security](https://assetplanner.com/.well-known/security.txt)
+- [Compliance](https://www.ameresco.com/certifications/)
+- [Terms of service](https://www.ameresco.com/terms-and-conditions/)
+- [Privacy policy](https://www.ameresco.com/privacy-policy/)
+- [GitHub](https://github.com/Ameresco)
+
+## API Evangelist rating
+
+**Kin Score 21.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 43.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.6** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ameresco/](https://apis.io/providers/ameresco/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ameresco: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ameresco/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
